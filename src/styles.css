@@ -1,0 +1,41 @@
+body,
+html {
+  background-color: #ccc;
+  height: 100%;
+  padding-top: 20px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.todo-list {
+  width: 300px;
+  border-radius: 10px;
+  margin: 0 auto;
+  background: #ffffff;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 0.9rem;
+  overflow: hidden;
+  box-shadow: 0 3px 3px #333;
+}
+
+.todo-list h1 {
+  background: #333;
+  text-align: center;
+  margin: 0 0 20px 0;
+  font-size: 1.5rem;
+  padding: 10px 0;
+  color: gold;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.todo-item {
+  display: block;
+  background: #eeeeee;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+}
